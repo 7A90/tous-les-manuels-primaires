@@ -1,0 +1,99 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(KnowledgeTreeApp());
+}
+
+class KnowledgeTreeApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'شجرة المعرفة - الكتب المدرسية',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+        fontFamily: 'Tajawal', // خط عربي مناسب للأطفال
+      ),
+      home: HomeScreen(),
+    );
+  }
+}
+
+class HomeScreen extends StatelessWidget {
+  // قائمة السنوات الدراسية في الجزائر
+  final List<Map<String, String>> grades = [
+    {'title': 'التحضيري', 'subtitle': 'Préparatoire', 'icon': '🎨'},
+    {'title': 'السنة الأولى', 'subtitle': '1ère AP', 'icon': '🌱'},
+    {'title': 'السنة الثانية', 'subtitle': '2ème AP', 'icon': '🌿'},
+    {'title': 'السنة الثالثة', 'subtitle': '3ème AP', 'icon': '🌳'},
+    {'title': 'السنة الرابعة', 'subtitle': '4ème AP', 'icon': '📚'},
+    {'title': 'السنة الخامسة', 'subtitle': '5ème AP', 'icon': '🎓'},
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('شجرة المعرفة 🌳 المكتبة الرقمية'),
+        centerTitle: true,
+        backgroundColor: Colors.green[700],
+      ),
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Colors.green[50]!, Colors.white],
+          ),
+        ),
+        child: GridView.builder(
+          padding: EdgeInsets.all(16),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2, // عرض عنصرين في كل صف
+            crossAxisSpacing: 15,
+            mainAxisSpacing: 15,
+          ),
+          itemCount: grades.length,
+          itemBuilder: (context, index) {
+            return GradeCard(
+              title: grades[index]['title']!,
+              subtitle: grades[index]['subtitle']!,
+              icon: grades[index]['icon']!,
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class GradeCard extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final String icon;
+
+  GradeCard({required this.title, required this.subtitle, required this.icon});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () {
+        // هنا يتم الانتقال لصفحة الكتب الخاصة بكل سنة
+        print("فتح كتب $title");
+      },
+      child: Card(
+        elevation: 5,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(icon, style: TextStyle(fontSize: 40)),
+            SizedBox(height: 10),
+            Text(title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+            Text(subtitle, style: TextStyle(color: Colors.grey[600], fontSize: 14)),
+          ],
+        ),
+      ),
+    );
+  }
+}
