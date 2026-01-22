@@ -1,0 +1,268 @@
+{
+  "placeholderImages": [
+    {
+      "id": "l0-math",
+      "description": "Math book cover",
+      "imageUrl": "https://i.imgur.com/03in1G1.png",
+      "imageHint": "math book"
+    },
+    {
+      "id": "l0-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://i.imgur.com/630OA9p.png",
+      "imageHint": "arabic calligraphy"
+    },
+    {
+      "id": "l1-math",
+      "description": "Math book cover",
+      "imageUrl": "https://imgur.com/rMKNOBT.png",
+      "imageHint": "math textbook"
+    },
+    {
+      "id": "l1-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://imgur.com/ZLO8Mnx.png",
+      "imageHint": "arabic letters"
+    },
+    {
+      "id": "l1-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://imgur.com/NLtvtma.png",
+      "imageHint": "math puzzle"
+    },
+    {
+      "id": "l1-arabic-activity",
+      "description": "Arabic activity book cover",
+      "imageUrl": "https://imgur.com/7oIdjxw.png",
+      "imageHint": "arabic worksheet"
+    },
+    {
+      "id": "l2-math",
+      "description": "Math book cover",
+      "imageUrl": "https://imgur.com/O59GDKK.png",
+      "imageHint": "numbers background"
+    },
+    {
+      "id": "l2-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://imgur.com/qQURS8O.png",
+      "imageHint": "arabic manuscript"
+    },
+    {
+      "id": "l2-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://imgur.com/0h1s5LK.png",
+      "imageHint": "math workbook"
+    },
+    {
+      "id": "l2-arabic-activity",
+      "description": "Arabic activity book cover",
+      "imageUrl": "https://imgur.com/62Rhtff.png",
+      "imageHint": "arabic exercises"
+    },
+    {
+      "id": "l3-civics",
+      "description": "Civics book cover",
+      "imageUrl": "https://imgur.com/0nY90Ad.png",
+      "imageHint": "government building"
+    },
+    {
+      "id": "l3-english",
+      "description": "English book cover",
+      "imageUrl": "https://imgur.com/RHb1ls2.png",
+      "imageHint": "english dictionary"
+    },
+    {
+      "id": "l3-math",
+      "description": "Math book cover",
+      "imageUrl": "https://imgur.com/haAWjsb.png",
+      "imageHint": "geometry shapes"
+    },
+    {
+      "id": "l3-hist-geo",
+      "description": "History and Geography book cover",
+      "imageUrl": "https://imgur.com/bFz8oRK.png",
+      "imageHint": "old map"
+    },
+    {
+      "id": "l3-islamic",
+      "description": "Islamic Education book cover",
+      "imageUrl": "https://imgur.com/EPIx6dL.png",
+      "imageHint": "islamic pattern"
+    },
+    {
+      "id": "l3-science",
+      "description": "Science book cover",
+      "imageUrl": "https://imgur.com/PaqyML2.png",
+      "imageHint": "science lab"
+    },
+    {
+      "id": "l3-french",
+      "description": "French book cover",
+      "imageUrl": "https://imgur.com/psLal7e.png",
+      "imageHint": "eiffel tower"
+    },
+    {
+      "id": "l3-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://imgur.com/NJwoCVd.png",
+      "imageHint": "abacus numbers"
+    },
+    {
+      "id": "l3-french-activity",
+      "description": "French activity book cover",
+      "imageUrl": "https://imgur.com/WtJ1iv8.png",
+      "imageHint": "french cafe"
+    },
+    {
+      "id": "l3-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://imgur.com/PcJCRPx.png",
+      "imageHint": "arabic poetry"
+    },
+    {
+      "id": "l3-arabic-activity",
+      "description": "Arabic activity book cover",
+      "imageUrl": "https://imgur.com/yXv9qZm.png",
+      "imageHint": "writing practice"
+    },
+    {
+      "id": "l4-amazigh",
+      "description": "Amazigh book cover",
+      "imageUrl": "https://imgur.com/mQe6JMy.png",
+      "imageHint": "berber pattern"
+    },
+    {
+      "id": "l4-hist-geo",
+      "description": "History and Geography book cover",
+      "imageUrl": "https://imgur.com/atkkqit.png",
+      "imageHint": "ancient ruins"
+    },
+    {
+      "id": "l4-islamic",
+      "description": "Islamic Education book cover",
+      "imageUrl": "https://imgur.com/ZcCghx0.png",
+      "imageHint": "mosque dome"
+    },
+    {
+      "id": "l4-science",
+      "description": "Science book cover",
+      "imageUrl": "https://imgur.com/A4ejw2w.png",
+      "imageHint": "dna strand"
+    },
+    {
+      "id": "l4-civics",
+      "description": "Civics book cover",
+      "imageUrl": "https://imgur.com/g8zq3lB.png",
+      "imageHint": "community people"
+    },
+    {
+      "id": "l4-math",
+      "description": "Math book cover",
+      "imageUrl": "https://imgur.com/FrBt2A6.png",
+      "imageHint": "algebra equations"
+    },
+    {
+      "id": "l4-english",
+      "description": "English book cover",
+      "imageUrl": "https://imgur.com/8r4QAKt.png",
+      "imageHint": "shakespeare book"
+    },
+    {
+      "id": "l4-french",
+      "description": "French book cover",
+      "imageUrl": "https://imgur.com/Cd4en9L.png",
+      "imageHint": "louvre museum"
+    },
+    {
+      "id": "l4-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://imgur.com/NzAFmAm.png",
+      "imageHint": "calculator pencil"
+    },
+    {
+      "id": "l4-arabic-activity",
+      "description": "Arabic activity book cover",
+      "imageUrl": "https://imgur.com/FES6B4U.png",
+      "imageHint": "arabic grammar"
+    },
+    {
+      "id": "l4-french-activity",
+      "description": "French activity book cover",
+      "imageUrl": "https://imgur.com/0ScUzac.png",
+      "imageHint": "french vocabulary"
+    },
+    {
+      "id": "l4-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://imgur.com/sW21MY9.png",
+      "imageHint": "arabic literature"
+    },
+    {
+      "id": "l5-civics",
+      "description": "Civics book cover",
+      "imageUrl": "https://imgur.com/SVVRuqr.png",
+      "imageHint": "voting box"
+    },
+    {
+      "id": "l5-math",
+      "description": "Math book cover",
+      "imageUrl": "https://imgur.com/yDqYdxS.png",
+      "imageHint": "calculus graph"
+    },
+    {
+      "id": "l5-amazigh",
+      "description": "Amazigh book cover",
+      "imageUrl": "https://imgur.com/hu7lI1z.png",
+      "imageHint": "tifinagh script"
+    },
+    {
+      "id": "l5-history",
+      "description": "History book cover",
+      "imageUrl": "https://imgur.com/3fBSuUo.png",
+      "imageHint": "historical document"
+    },
+    {
+      "id": "l5-islamic",
+      "description": "Islamic Education book cover",
+      "imageUrl": "https://imgur.com/j29zBlR.png",
+      "imageHint": "quran book"
+    },
+    {
+      "id": "l5-science",
+      "description": "Science book cover",
+      "imageUrl": "https://imgur.com/2HRUCFv.png",
+      "imageHint": "chemistry beakers"
+    },
+    {
+      "id": "l5-geography",
+      "description": "Geography book cover",
+      "imageUrl": "https://imgur.com/RyQIj44.png",
+      "imageHint": "topographic map"
+    },
+    {
+      "id": "l5-french",
+      "description": "French book cover",
+      "imageUrl": "https://imgur.com/H3eMZAI.png",
+      "imageHint": "notre dame"
+    },
+    {
+      "id": "l5-math-activity",
+      "description": "Math activity book cover",
+      "imageUrl": "https://imgur.com/n82GB8s.png",
+      "imageHint": "math problems"
+    },
+    {
+      "id": "l5-french-activity",
+      "description": "French activity book cover",
+      "imageUrl": "https://imgur.com/24PaSgw.png",
+      "imageHint": "french verbs"
+    },
+    {
+      "id": "l5-arabic",
+      "description": "Arabic book cover",
+      "imageUrl": "https://imgur.com/BDkEEG7.png",
+      "imageHint": "famous poet"
+    }
+  ]
+}
